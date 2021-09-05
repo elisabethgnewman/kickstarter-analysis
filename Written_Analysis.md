@@ -15,5 +15,12 @@ Another challenge I encountered was deciding what type of chart to use. Although
 
 ## Results
 ![Outcomes Based on Goal](https://user-images.githubusercontent.com/88783255/132113333-2442dfaa-49a4-47ec-acce-327f7ec017b6.PNG)
-My outcomes based on goal 
+As mentioned above, my outcomes based on goals chart presented the percentage of successful, failed, and canceled kickstarters in a line chart. As you can see in the chart, the goal amount does not seem to be highly correlated to the outcome. There are low dollar goals with high success rates (ex: >$1000 to $10,000) and high dollar goals with high success rates (ex: $25,000-$35,000).
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/88783255/132113335-82f59252-d387-4c8d-9ada-a520f2cfb512.PNG)
+The theater outcomes based on the launch date chart above shows that May, June, and July are great months to launch a theater kickstarter! Overall, we see that theater kickstarters are more likely to succeed than fail in any given month, but the delta between the two is most significant in the summer months.
+
+## Limitations
+One limitation I encountered with this dataset is that there is a lot of unused information. The blurb and name fields do not provide us with information that we can easily compare across ids. Each blurb and name is unique to an id, so those fields don't help us analyze the data.
+
+## Recommendations
+I would recommend analyzing the data by both year and country. Since we are working with a lot of data in this file, sub-dividing or filtering the data into additional categories will help us better assist Louise with her kickstarter analysis. 
